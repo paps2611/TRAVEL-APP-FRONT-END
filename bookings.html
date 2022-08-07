@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservtion Form</title>
+     <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- fonts -->
+     <link rel = "stylesheet" href = "font/fonts.css">
+     <!-- normalize css -->
+     <link rel = "stylesheet" href = "css/normalize.css">
+     <!-- custom css -->
+     <link rel = "stylesheet" href = "css/utility.css">
+     <link rel = "stylesheet" href = "css/style.css">
+     <link rel = "stylesheet" href = "css/responsive.css">
+</head>
+<body>
+     <!-- navbar  -->
+     <nav class = "navbar">
+        <div class = "container flex">
+            <a href = "index.html" class = "site-brand">
+                Intelligent Travel <span>Recommender</span>
+            </a>
+
+            <button type = "button" id = "navbar-show-btn" class = "flex">
+                <i class = "fas fa-bars"></i>
+            </button>
+            <div id = "navbar-collapse">
+                <button type = "button" id = "navbar-close-btn" class = "flex">
+                    <i class = "fas fa-times"></i>
+                </button>
+                <ul class = "navbar-nav">
+                    <li class = "nav-item">
+                        <a href = "index.html" class = "nav-link">Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "gallery.html" class = "nav-link">Gallery</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "blog.html" class = "nav-link">Blog</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "about.html" class = "nav-link">About</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "contact.html" class = "nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar  -->
+  <!-- header -->
+  <header class = "flex header-sm">
+    <div class = "container">
+        <div class = "header-title">
+            <h1>Bookings</h1>
+            <p>Don't waste any further time book your tickets now!
+            </p>
+        </div>
+    </div>
+</header>
+<!-- header -->
+    <div class="box">
+        <h1>Reservation Form</h1>
+        <form>
+            <label>Full Name</label><br>
+            <input type="text" placeholder="First Name Last Name"><br>
+            <label>Email</label><br>
+            <input type="text" placeholder="Email_Address"><br>
+            <label>Mobile</label><br>
+            <input type="number" placeholder="Mob_Num"><br><br>
+            <label>Select your package</label><br>
+            <select name="package">
+                <option value="Goa">Goa</option>
+                <option value="Malvan">Ladakh</option>
+                <option value="Ratnagiri">Amritsar</option>
+                <option value="Goa">Kerala</option>
+                <option value="Goa">Taj mahal</option>
+                <option value="Goa">Manali</option>
+                <option value="Goa">Mysore</option>
+                <option value="Goa">Jog falls</option>
+                <option value="Goa">Srinagar</option>
+            </select><br><br>
+            <label>Arrival Date</label><br>
+            <input type="date" placeholder="d/m/Y"><br><br>
+            <label>Number of Person</label><br>
+            <input type="number" placeholder="Person aboarding"><br><br>
+            <label>What would you want to avail?</label><br>
+            Boarding<input type="checkbox"><br>
+            Fooding<input type="checkbox"><br>
+            Sight Seeing<input type="checkbox"><br><br>
+            <label>Discount coupon code</label><br>
+            <input type="text" placeholder="Coupon-code"><br><br>
+            <label>Terms & Conditions</label><br>
+            <input type="radio" name="r">I Agree
+            <input type="radio" name="r">I Disagree<br><br>
+            <button type="submit" value="submit">Confirm Reservation</button>
+        </form>
+    </div>
+     <!-- footer -->
+     <footer class = "py-4">
+        <div class = "container footer-row">
+            <div class = "footer-item">
+                <a href = "index.html" class = "site-brand">
+                    Intelligent Travel <span>Recommender</span>
+                </a>
+                <p class = "text">Already checking out? Before you head out dont forget to check our social media platforms and leave a review. </p>
+            </div>
+
+            <div class = "footer-item">
+                <h2>Follow us on: </h2>
+                <ul class = "social-links">
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <i class = "fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class = "footer-item">
+                <h2>Popular Places:</h2>
+                <ul>
+                    <li><a href = "#">Goa</a></li>
+                    <li><a href = "#">Manali</a></li>
+                    <li><a href = "#">Amritsar</a></li>
+                    <li><a href = "#">India Gate</a></li>
+                    <li><a href = "#">Mysore</a></li>
+                </ul>
+            </div>
+
+            <div class = "subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class = "flex">
+                    <input type = "email" placeholder="Enter Email" class = "form-control">
+                    <input type = "submit" class = "btn" value = "Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+</body>
+</html>
